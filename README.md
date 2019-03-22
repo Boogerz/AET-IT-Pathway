@@ -56,7 +56,17 @@ npm test
             * DELETED: picture in creative_feature_area
           * internships.html
             * CHANGE: static.html to internships.html for clarity
-          
+
+      * 0.1.2 3-22-2019
+        * ADDED: curriculum.html
+        * index.html footer
+          * CHANGE: got rid of the template links and changed the address to ACL's address
+        * contact.html
+          * CHANGE: address
+          * ADDED: office hours/open hours, added school phone number
+
+
+
 
 
 
