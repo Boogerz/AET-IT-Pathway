@@ -48,6 +48,16 @@ npm test
     * internships.html
       * Change: static.html to internships.html for clarity
 
+      * 0.1.2 3-20-2019
+          * Navbar, creative_feature_area
+            * ADD: linked the clubs, internships, and volunteer bars to other pages
+            * CHANGE:  from lg-6 to lg-12 creative_feature_area
+            * CHANGE: Color Scheme to match customer requirements (blue/teal)
+            * DELETED: picture in creative_feature_area
+          * internships.html
+            * CHANGE: static.html to internships.html for clarity
+          
+
 
 
 
