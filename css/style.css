@@ -15,7 +15,7 @@ theme.
 @Developer URL: http://rocky.wethemez.com
 Author E-mail: rockybd1995@gmail.com
 
-@Default Styles
+@Default Stylest
 
 Table of Content:
 01/ Variables
@@ -34,8 +34,17 @@ Table of Content:
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
+.classtitles{
+  text-align:center;
+}
+
+.topbot{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Poppins:300,400,500,600,700,800,900");
-.col-md-offset-right-1, .col-lg-offset-right-1 {
+.col-md-offset-right-1, .col-lg-offset-right-1  {
   margin-right: 8.33333333%;
 }
 
@@ -808,7 +817,32 @@ i:before {
   height: 46px;
   width: 165px;
   text-align: center;
-  color: #fff;
+  color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  -webkit-border-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  border-image: -webkit-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  border-image: -ms-linear-gradient(180deg, #20d497 0%, #744fff 100%);
+  border-image-slice: 1;
+  display: block;
+  line-height: 42px;
+  -webkit-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  position: relative;
+  z-index: 3;
+  margin: auto;
+}
+
+.tp_btn_white {
+  height: 46px;
+  width: 165px;
+  text-align: center;
+  color: white;
   border-width: 2px;
   border-style: solid;
   border-image: -moz-linear-gradient(180deg, #20d497 0%, #744fff 100%);
@@ -851,7 +885,7 @@ i:before {
 }
 
 .tp_btn:hover {
-  color: #fff;
+  color: blue;
 }
 
 .tp_btn:hover:after {
