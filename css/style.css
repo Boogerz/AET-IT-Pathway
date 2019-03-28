@@ -34,6 +34,9 @@ Table of Content:
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
+.smallspace{
+  height: 25px;
+}
 thead{
   background-image:-webkit-linear-gradient(180deg, rgb(32, 212, 151) 0%, rgb(116, 79, 255) 100%);
 }
