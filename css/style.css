@@ -34,6 +34,20 @@ Table of Content:
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
+thead{
+  background-image:-webkit-linear-gradient(180deg, rgb(32, 212, 151) 0%, rgb(116, 79, 255) 100%);
+}
+.greenlinks{
+  color:white;
+}
+.greenlinks:hover{
+  color: #2bc0a4;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
 p.lowerfont{
 
 }
@@ -45,12 +59,13 @@ table {
   position: static;
   width: 100%;
   font-size: 12px;
+  font-family: "Poppins", sans-serif;
 }
 
 thead th {
-  background: #88CCF1;
+
   color: #FFF;
-  font-family: 'Lato', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: 100;
   text-transform: uppercase;
@@ -64,7 +79,7 @@ tr {
 }
 
 th, td {
-  font-family: 'Lato', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: 400;
   padding: 20px;

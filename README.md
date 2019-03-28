@@ -54,6 +54,11 @@ easy and readable page for AET IT Pathway
     * ADDED: Three section titles Computer Science Classes, MAth Classes, and Science classes
     * ADDED: Classes to each section (finished adding computer science and half of math will finish next time)
 
+* 0.3.1 3-27-2019
+  * curriculum.html service_area (class diagram and link)
+    * ADDED: 4 year and 2 year diagrams with links to the classes sections
+    * ADDED: Gradient color to the table header
+
 
 
 
